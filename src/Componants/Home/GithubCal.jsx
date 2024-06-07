@@ -8,6 +8,7 @@ const GithubCal = () => {
     <div className='git-cal'>
     <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
     <h2>Activity</h2>
+    <div className='table'>
     <GitHubCalendar
       username="cyberdev249"
       blockSize={15}
@@ -15,6 +16,7 @@ const GithubCal = () => {
       color="#c084f5"
       fontSize={16}
     />
+    </div>
   </Row>
   </div>
   )

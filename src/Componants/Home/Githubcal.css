@@ -1,5 +1,14 @@
 .git-cal {
-    background-color: #505050;
+    background-color: #242424;
     align-items: center ;
-    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.table {
+    background-color: rgb(75, 75, 75);
+    padding: 15px 20px;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px #000000;
+    color: white;
 }
