@@ -2,7 +2,7 @@
 h1 {
     color: white;
     margin-left: 60px;
-    margin-right: 60px;
+
     font-size: 4rem;
     padding: 20px 0px;
 }
@@ -12,4 +12,17 @@ h1 {
     margin-left: 60px;
     margin-right: 60px;
     font-size: 1.5rem;
+}
+
+.home-page {
+    overflow-x: hidden;
+}
+
+h2{
+    color: white;
+    margin-left: 60px;
+
+    font-size: 3rem;
+    padding: 20px 0px; 
+    text-align: center;
 }
