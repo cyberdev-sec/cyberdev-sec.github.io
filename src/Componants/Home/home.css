@@ -4,7 +4,7 @@ h1 {
     margin-left: 0px;
     margin-right: 0px;
     font-size: 3rem;
-    padding: 50px 20px;
+    padding: 50px 10px;
 }
 
 .description {
@@ -12,6 +12,9 @@ h1 {
     margin-left: 70px;
     margin-right: 60px;
     font-size: 1.5rem;
+}
+.para {
+    padding-left: 10px;
 }
 
 .home-page {
