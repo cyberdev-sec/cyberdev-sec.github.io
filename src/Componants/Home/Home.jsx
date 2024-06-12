@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import GithubCal from './GithubCal';
 import { Container, Row, Col } from "react-bootstrap";
-import image from './../../assets/text-color.png'
+import homePic from './../../assets/text-color.png'
 
 const Home = () => {
   return (
@@ -15,18 +15,22 @@ const Home = () => {
       <br />
       <br />
 
-      <h1>Hello everyone <strong>CyberDev</strong> here!</h1>
-
-        <div className='description'>
-        <p>A curiosity driven junior cybersecurity analyst AI enthusiast & web developer</p>
-        <p>When it comes to Computer science, knowledge and creativity are what matters the most... </p>
-        <p>after problem solving skills of course. Either alone or in  a group, work is work</p>
-        </div>
-      
-      
+  <div className='home-componants'>
+      <div className='description'>
+          <h1>Hello everyone <strong>CyberDev</strong> here!</h1>
+          <p>A curiosity driven junior cybersecurity analyst AI enthusiast & web developer</p>
+          <p>When it comes to Computer science, knowledge and creativity are what matters the most... </p>
+          <p>after problem solving skills of course. Either alone or in  a group, work is work</p>
+      </div>
+      <div className='home-image'>
+              <img
+                src={homePic}
+                alt="home pic"
+                style={{ maxHeight: "450px" }}
+              />
+      </div>
+  </div>
         <GithubCal />
-      
-      
 
     </div>
           
