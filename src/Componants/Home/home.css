@@ -5,6 +5,7 @@ h1 {
     margin-right: 0px;
     font-size: 3rem;
     padding: 50px 10px;
+    font-family: "Poppins", sans-serif;
 }
 
 .description {
@@ -15,6 +16,7 @@ h1 {
 }
 .para {
     padding-left: 10px;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 .home-page {
