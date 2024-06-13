@@ -17,7 +17,7 @@ const Home = () => {
 
   <div className='home-componants'>
       <div className='description'>
-          <h1>Hello everyone <strong>CyberDev</strong> here!</h1>
+          <h1>Hello everyone CyberDev here!</h1>
           <p className='para'>A curiosity driven junior cybersecurity analyst AI enthusiast & web developer</p>
           <p className='para'>When it comes to Computer science, knowledge and creativity are what matters the most... </p>
           <p className='para'>after problem solving skills of course. Either alone or in  a group, work is work</p>
