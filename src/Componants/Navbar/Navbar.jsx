@@ -7,12 +7,16 @@ import {
 import Button from 'react-bootstrap/Button'
 import logo_dark from '../../assets/full-logo.png';
 
+
 const Navbar = () => {
   return (
     <div className="navbar">
 
         <img src={logo_dark} alt="" className='logo'/>
 
+        
+
+        
         <ul>
             <li><h4>Projects</h4></li>
             <li><h4>Resume</h4></li>
@@ -27,8 +31,9 @@ const Navbar = () => {
                 
             </Button>
         </ul>
-
-    </div>
+      
+    </div> 
+    
   )
 }
 

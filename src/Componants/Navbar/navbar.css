@@ -30,6 +30,7 @@ ul li {
     display: inline-block;
     margin: 10px 20px;
     font-size: 20px;
+    font-family: "Pixelify Sans", sans-serif;
     cursor: pointer;
 }
 
