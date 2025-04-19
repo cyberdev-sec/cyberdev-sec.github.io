@@ -10,7 +10,7 @@ const GithubCal = () => {
     <h2>Activity</h2>
     <div className='table'>
     <GitHubCalendar
-      username="cyberdev249"
+      username="cyberdev-sec"
       blockSize={15}
       blockMargin={5}
       color="#c084f5"
